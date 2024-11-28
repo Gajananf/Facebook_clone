@@ -67,8 +67,9 @@
 
 .left-div{
     width: 20%;
-    background-color: rgba(206, 221, 231, 0.8);
-    height: 800px;
+    background-color: rgb(247, 238, 238);
+    /* background-color: rgba(206, 221, 231, 0.8); */
+    height: 1400px;
     margin-bottom: 100px;
     padding-right: 30px;
 } 
@@ -105,8 +106,9 @@
 
 .right-div{
     width: 20%;
-    background-color: rgba(206, 221, 231, 0.8);
-    height: 800px;
+    background-color: rgb(247, 238, 238);
+    /* background-color: rgba(206, 221, 231, 0.8); */
+    height: 1400px;
 }
 
 .content{
@@ -121,7 +123,7 @@
 .middle-div{
     width: 100%;
     background-color: black;
-    height: 800px;
+    height: 1000px;
     margin-bottom: 500px;
     
 }
@@ -148,6 +150,7 @@
 .s_btn  .learn{
     float: right;
     margin-right: 20px;
+    padding: 2px;
 }
  .msg{
     float: right;
@@ -157,12 +160,17 @@
 
 .status{
     height: 40px;
-    background-color:rgba(206, 221, 231, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 2px;
+    background-color: rgba(245, 239, 239, 0.897);
+    /* background-color:rgba(206, 221, 231, 0.8); */
     display: flex;
     padding: 10px 0px 0px 5px;
 }
 
 .write_post input{
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 2px;
     padding-left: 20px;
     width: 200px;
 }
@@ -173,11 +181,14 @@
 }
 
 .post_right{
+    
     margin: 10px 0px 0px 20px;
     width: 30%;
 }
 
 .post_right input{
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 2px;
     padding: 10px 0px 10px 50px;
     width: 83%;
 }
@@ -208,15 +219,17 @@
 .post_dp{
     border-radius: 50%;
     width: 45px;
-    height: 55px;
+    height: 52px;
     position: absolute;
-    top: 540px;
+    top: 550px;
     left: 260px;
 }
 
 .write_post input{
     padding:30px 0px 30px 69px;
     width: 90%;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 2px;
 }
 
 .search_img{
@@ -228,5 +241,153 @@
 }
 
 .community{
-    color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    border-radius: 2px;
+    background-color: whitesmoke;
+    margin-top: 20px;
+}
+.comm_title{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.comm_title h4{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.comm_title p{
+    margin-left: 150px;
+    color: rgba(0, 0, 255, 0.856);
+    margin-top: 10px;
+}
+
+.invite{
+    display: flex;
+    padding:10px;
+}
+.invite img{
+    margin-top: 3px;
+}
+.invite p{
+    margin-left: 10px;
+}
+
+.invite p a{
+    text-decoration: none;
+    color: rgba(0, 0, 255, 0.856);
+}
+
+.mid-like{
+    display: flex;
+    padding-top: 25px;
+    padding:13px;
+}
+
+.mid-like p{
+    margin-left: 10px;
+}
+
+.mid-follow{
+    display: flex;
+    padding-top: 20px;
+    padding:13px;
+}
+
+.mid-follow img{
+    margin-top: 3px;
+}
+.mid-follow p{
+    margin-left: 10px;
+}
+
+.post_part{
+    width: 99%;
+    height: 800px;
+    margin-top: 10px;
+    padding: 10px 0px 0px 7px;
+    background-color: whitesmoke;
+}
+
+.post_part h3{
+    margin-left: 11px;
+}
+.post_pic{
+
+    display: flex;
+}
+
+.post_border {
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    width: 95%;
+    border-radius: 10px;
+    height: 670px;
+    margin: 10px 0px 0px 12px;
+}
+
+.post_border .mid-post-profile{
+        border-radius: 50%;
+        width: 45px;
+        height: 52px;
+        margin: 5px 0px 0px  10px;
+
+}
+
+.post_time{
+    margin: 15px 0px 0px 10px;
+}
+.post_time p{
+    font-size: small;
+    color: rgb(102, 116, 128);
+}
+
+.mid-post-dot{
+    margin: 13px 0px 0px 490px;
+}
+.post_caption{
+    font-size:medium;
+    margin: 10px 0px 0px 20px;
+}
+
+.post_main_pic img{
+    margin-top: 10px;
+    width: 100%;
+    height: 500px;
+}
+
+.like_comment_share{
+    display: flex;
+    margin: 10px 90px 0px 90px;
+}
+
+.like_post{
+    display: flex;
+    
+}
+
+
+.like_post p{
+    margin-left: 8px;
+    margin-top: 3px;
+}
+
+.comment_post{
+    display: flex;
+    margin: 0px 150px 0px 150px  ;
+}
+
+.comment_post img{
+    margin-top: 3px;
+}
+.comment_post p{
+    margin-left: 8px;
+    margin-top: 2px;
+}
+
+.share_post{
+    display: flex;
+}
+
+.share_post p{
+    margin-left: 5px;
 }
