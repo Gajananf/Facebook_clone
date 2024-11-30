@@ -3,6 +3,10 @@
     margin: 0px;
 }
 
+
+/* NAVIGATION PART */
+
+
 .header{
     background-color: blue;
     height: 35px;
@@ -66,6 +70,8 @@
 }
  
 
+    /* LEFT PART FOR PAGE */
+
 .left-div{
     width: 20%;
     background-color:rgb(207, 206, 206);
@@ -113,6 +119,7 @@
 }
 
 
+/* RIGHT PART OF PAGE */
 
 .right-div{
     width: 20%;
@@ -122,6 +129,9 @@
     height: 1360px;
 }
 
+
+ /* BANNER PHOTO */
+
 .content{
     width: 100%;
 }
@@ -130,6 +140,9 @@
     height: 400px;
     display: block;
 }
+
+
+  /* MIDDLE PART OF PAGE */
 
 .middle-div{
     width: 100%;
@@ -169,6 +182,7 @@
     margin-right: 50px;
     background-color: rgba(206, 221, 231, 0.8);
 }
+
 
 .status{
     height: 40px;
@@ -242,6 +256,9 @@
     top: 550px;
     left: 260px;
 }
+
+
+  /* MIDDLE- RIGHT PART  */
 
 .write_post input{
     padding:30px 0px 30px 69px;
@@ -460,6 +477,9 @@
     padding: 5px 0px 5px 0px;
 }
 
+
+    /* POST PART */
+
 .post_part{
     border: 1px solid rgba(0, 0, 0, 0.158);
     width: 724px;
@@ -600,3 +620,92 @@ left: 890px;
 /* .post_blue_like img:hover .emoji{
     display: ;
 } */
+
+
+
+
+
+
+
+
+/* login page css */
+
+
+.main{
+    display: flex;
+}
+
+.head{
+    margin: 150px  150px 150px 100px;
+}
+
+.head h1{
+    color: rgba(30, 30, 189, 0.639);
+    font-size: 150px;
+    margin-bottom: 20px;
+}
+
+.head h2{
+    margin-left: 20px;
+}
+
+.login_part{
+    border: 1px solid rgba(0, 0, 0, 0.283);
+    /* margin: 300px; */
+    margin-top: 150px;
+    margin-right: 50px;
+    border-radius: 10px;
+    width: 300px;
+    height: 300px;
+    padding: 50px;
+    padding-bottom: 80px;
+}
+
+.email input{
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    width: 260px;
+    padding: 20px;
+}
+
+.password input{
+    margin-right: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 260px;
+    padding: 20px;
+}
+
+.login_btn{
+    margin: 20px 0px 20px 0px ;
+    border: 1px solid rgba(0, 0, 0, 1);
+    border-radius: 10px;
+    padding: 15px 5px 15px 5px;
+    width: 303px;
+    color: whitesmoke;
+    background-color: blue;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.forgot{
+    margin: 10px  0px 20px 0px;
+}
+.forgot a{
+    text-decoration: none;
+    margin: 10px  0px 20px 90px;
+    color: blue;
+}
+
+
+.new_acctn{
+    margin: 20px 0px 20px 50px ;
+    padding: 15px 5px 15px 5px;
+    width: 200px;
+    color: whitesmoke;
+    background-color: green;
+    font-weight: 400;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
