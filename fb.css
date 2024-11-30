@@ -7,6 +7,7 @@
     background-color: blue;
     height: 35px;
     position: sticky;
+    margin: 0px 10px 0px 10px;
 }
 .logo{
     width: 20px;
@@ -26,7 +27,7 @@
     float: right;
     position:absolute;
     top: 8px;
-    left: 1200px;
+    left: 1190px;
     
 }
 
@@ -67,9 +68,9 @@
 
 .left-div{
     width: 20%;
-    background-color: rgb(247, 238, 238);
+    background-color:rgb(207, 206, 206);
     /* background-color: rgba(206, 221, 231, 0.8); */
-    height: 1400px;
+    height: 1360px;
     margin-bottom: 100px;
     padding-right: 30px;
 } 
@@ -84,6 +85,15 @@
 .left-links{
     padding: 20px 0px 0px 100px;
     list-style-type: none;
+}
+
+.left-links a{
+    text-decoration: none; 
+    color: black;
+}
+
+.left-links a:hover{
+    color: brown;
 }
 
 .left-links li{
@@ -106,9 +116,10 @@
 
 .right-div{
     width: 20%;
-    background-color: rgb(247, 238, 238);
+    
+    background-color:rgb(207, 206, 206);
     /* background-color: rgba(206, 221, 231, 0.8); */
-    height: 1400px;
+    height: 1360px;
 }
 
 .content{
@@ -122,8 +133,8 @@
 
 .middle-div{
     width: 100%;
-    background-color: black;
-    height: 1000px;
+    background-color:rgb(207, 206, 206);
+    height: 960px;
     margin-bottom: 500px;
     
 }
@@ -131,6 +142,7 @@
 .s_btn{
     background-color: whitesmoke;
     padding: 10px 10px 10px 30px;
+    border: 1px solid rgba(0, 0, 0, 0.358);
 }
 
 .s_btn button{
@@ -160,37 +172,43 @@
 
 .status{
     height: 40px;
-    border: 1px solid rgba(0, 0, 0, 0.158);
+    border: 1px solid rgba(0, 0, 0, 0.358);
     border-radius: 2px;
     background-color: rgba(245, 239, 239, 0.897);
     /* background-color:rgba(206, 221, 231, 0.8); */
     display: flex;
-    padding: 10px 0px 0px 5px;
+    padding: 10px 0px 0px 0px;
+    margin-right: 3px;
+}
+
+.write_post{
+    width: 100%;
 }
 
 .write_post input{
-    border: 1px solid rgba(0, 0, 0, 0.158);
+    border: 1px solid rgba(0, 0, 0, 0.358);
     border-radius: 2px;
-    padding-left: 20px;
-    width: 200px;
+    padding-left: 30px;
 }
 
 .post_page{
-    width: 70%;
+    width: 80%;
     margin: 10px 0px 0px 0px;
 }
 
 .post_right{
     
-    margin: 10px 0px 0px 20px;
+    margin: 10px 0px 0px 40px;
     width: 30%;
+    margin-right: 1px;
 }
 
 .post_right input{
-    border: 1px solid rgba(0, 0, 0, 0.158);
+    border: 1px solid rgba(0, 0, 0, 0.358);
     border-radius: 2px;
     padding: 10px 0px 10px 50px;
-    width: 83%;
+    width: 81%;
+
 }
 
 .mid-post-page{
@@ -228,23 +246,23 @@
 .write_post input{
     padding:30px 0px 30px 69px;
     width: 90%;
-    border: 1px solid rgba(0, 0, 0, 0.158);
+    border: 1px solid rgba(0, 0, 0, 0.358);
     border-radius: 2px;
 }
 
 .search_img{
     position: absolute;
     top: 490px;
-    left:1005px;
+    left:1045px;
     width: 30px;
     height: 30px;
 }
 
 .community{
-    border: 1px solid rgba(0, 0, 0, 0.158);
+    border: 1px solid rgba(0, 0, 0, 0.358);
     border-radius: 2px;
     background-color: whitesmoke;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 .comm_title{
     display: flex;
@@ -252,19 +270,21 @@
     
 }
 .comm_title h4{
-    margin-left: 15px;
+    margin-left: 10px;
     margin-top: 10px;
 }
 
+
 .comm_title p{
-    margin-left: 150px;
-    color: rgba(0, 0, 255, 0.856);
+    margin-left: 120px;
+    color: rgba(56, 126, 148, 0.961);
     margin-top: 10px;
 }
 
 .invite{
     display: flex;
     padding:10px;
+    padding-top: 20px;
 }
 .invite img{
     margin-top: 3px;
@@ -275,7 +295,7 @@
 
 .invite p a{
     text-decoration: none;
-    color: rgba(0, 0, 255, 0.856);
+    color: rgba(56, 126, 148, 0.961);
 }
 
 .mid-like{
@@ -301,11 +321,151 @@
     margin-left: 10px;
 }
 
-.post_part{
-    width: 99%;
-    height: 800px;
+
+.mid-about{
+    border: 1px solid rgba(0, 0, 0, 0.358);
+    border-radius: 2px;
+    background-color: whitesmoke;
     margin-top: 10px;
-    padding: 10px 0px 0px 7px;
+}
+.about_title{
+    display: flex;
+    margin-top: 10px;
+    
+}
+.about_title h4{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.about_title p{
+    margin-left: 155px;
+    color: rgba(56, 126, 148, 0.961);
+    margin-top: 10px;
+}
+
+.messenger{
+    display: flex;
+    padding:10px;
+}
+.messenger img{
+    margin-top: 2px;
+}
+.messenger  a{
+    text-decoration: none;
+    color: rgba(56, 126, 148, 0.961);
+    margin-left: 15px;
+}
+.education{
+    display: flex;
+    padding: 8px;
+}
+
+.education  a{
+    text-decoration: none;
+    color: rgba(56, 126, 148, 0.961);
+    margin-left: 3px;
+    margin-top: 5px;
+}
+
+.education img{
+    margin-right: 5px;
+}
+
+.mid-like{
+    display: flex;
+    padding-top: 25px;
+    padding:13px;
+}
+
+
+.people{
+    border: 1px solid rgba(0, 0, 0, 0.28);
+    border-radius: 2px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.people_content{
+    display: flex;
+
+}
+.people_content h4{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.people_content p{
+    margin-left: 155px;
+    color: rgba(56, 126, 148, 0.961);
+    margin-top: 10px;
+}
+
+.like_count{
+    border: 1px solid rgba(0, 0, 0, 0.358);
+    border-radius: 2px;
+    background-color: whitesmoke;
+    padding: 20px 0px 20px 0px;
+    display: flex;
+    padding-left: 80px;
+}
+
+.like_count p{
+    margin: 10px 0px 0px 10px;
+}
+
+
+.page_liked{
+    border: 1px solid rgba(0, 0, 0, 0.28);
+    border-radius: 2px;
+    background-color: whitesmoke;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.page_like_content{
+    display: flex;
+}
+.page_like_content h4{
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.page_like_content p{
+    margin-left: 30px;
+    color: rgba(56, 126, 148, 0.961);
+    margin-top: 10px;
+
+}
+
+.fanclubs{
+    border: 1px solid rgba(0, 0, 0, 0.358);
+    border-radius: 2px;
+    background-color: whitesmoke;
+    padding: 10px 0px 10px 10px;
+    display: flex;
+}
+
+.fanclubs img{
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.fanclubs button{
+    margin-left: 40px;
+    margin-right: 20px;
+    height: 30px;
+    width: 100px;
+    padding: 5px 0px 5px 0px;
+}
+
+.post_part{
+    border: 1px solid rgba(0, 0, 0, 0.158);
+    width: 724px;
+    height: 740px;
+    margin-top: 10px;
+    padding: 10px 0px 0px 5px;
     background-color: whitesmoke;
 }
 
@@ -321,7 +481,7 @@
     border: 1px solid rgba(0, 0, 0, 0.158);
     width: 95%;
     border-radius: 10px;
-    height: 670px;
+    height: 697px;
     margin: 10px 0px 0px 12px;
 }
 
@@ -352,12 +512,12 @@
 .post_main_pic img{
     margin-top: 10px;
     width: 100%;
-    height: 500px;
+    height: 400px;
 }
 
 .like_comment_share{
     display: flex;
-    margin: 10px 90px 0px 90px;
+    margin: 10px 90px 20px 90px;
 }
 
 .like_post{
@@ -391,3 +551,52 @@
 .share_post p{
     margin-left: 5px;
 }
+
+.post_blue_like{
+    border: 1px solid;
+    display: flex;
+    padding: 10px;
+    margin: 10px 0px 0px 0px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+
+.write_comment img{
+    border-radius: 50%;
+    width: 45px;
+    height: 52px;
+}
+
+.write_comment{
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.158);
+}
+
+.write_comment input{
+    margin-left: 15px;
+    width: 700px;
+    padding-left: 20px;
+    border-radius: 60px;
+}
+
+.smile{
+position: absolute;
+top: 1315px;
+left: 850px;
+}
+
+.gif{
+    position: absolute;
+top: 1315px;
+left: 890px;
+}
+
+/* .emoji{
+    display: none;
+} */
+
+/* .post_blue_like img:hover .emoji{
+    display: ;
+} */
